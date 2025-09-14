@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Play, Shield, Zap, Users, Calendar } from "lucide-react";
-import heroImage from "@/assets/medical-hero.jpg";
+const heroImage = "https://cdn.builder.io/api/v1/image/assets%2Faeae393b121c48bc965ef344df5e7f0b%2Fe3e09a32339c42dd9183b5ca8c728cfd?format=webp&width=1200";
 
 const HeroSection = () => {
   return (
@@ -99,7 +99,7 @@ const HeroSection = () => {
             <div className="relative rounded-2xl overflow-hidden medical-shadow">
               <img
                 src={heroImage}
-                alt="Carenova Medical Dashboard"
+                alt="CareNova Medical Dashboard"
                 className="w-full h-auto object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-secondary/20" />
@@ -115,7 +115,7 @@ const HeroSection = () => {
               <div className="absolute bottom-6 left-6 bg-card/90 backdrop-blur-sm rounded-lg p-4 card-shadow">
                 <div className="text-sm">
                   <div className="font-semibold text-primary">98.7%</div>
-                  <div className="text-muted-foreground">Accuracy Rate</div>
+                  <div className="text-muted-foreground">EEG prediction accuracy</div>
                 </div>
               </div>
             </div>
