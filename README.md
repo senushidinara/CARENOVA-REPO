@@ -1,73 +1,50 @@
-# Welcome to your Lovable project
+CareNova is a **human-first healthcare platform** designed to reduce clinician burnout, improve patient access, and ensure verified, reliable health data. It combines **AI, wearables, AR visualizations, gamified self-care, and blockchain verification** to create a **cohesive, scalable, and engaging healthcare ecosystem**.
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/f33953fc-de32-468c-bd75-8d62c5862b28
+## 🌟 Vision
+Healthcare often overwhelms clinicians with **administrative tasks**, leaving patients waiting unnecessarily and creating stress and inefficiencies. CareNova **empowers clinicians, motivates patients, and delivers equitable, technology-enhanced care**.  
 
-## How can I edit this code?
+Through automation, predictive analytics, and seamless integration of human oversight, CareNova transforms healthcare into one that is **efficient, proactive, and human-centric**.  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 💡 Key Features
+- **🩺 Clinician Efficiency:** Automates documentation, scheduling, reporting, and workflow management to reclaim 13–21% of clinician time.  
+- **📄 Centralized Medical Records:** Consolidates medications, labs, allergies, imaging, and patient history in a secure hub.  
+- **📅 Hybrid Virtual Consultations:** AI-assisted, clinician-reviewed interactions for faster care.  
+- **⚠️ Predictive Alerts:** AI-driven notifications for risks, medication conflicts, and chronic flares, reviewed by healthcare professionals.  
+- **🏥 Community Health Hubs:** Ensures access for patients without devices.  
+- **🥗 Gamified Lifestyle Tracking:** Monitors sleep, diet, exercise, and habits with rewards and progress tracking.  
+- **🌱 Sustainable Care:** Reduces unnecessary travel, optimizes workflow to lower carbon footprint.  
+- **📊 Interactive Dashboards:** AR and data visualizations provide clear insights.  
+- **🔒 Verified Data:** Blockchain and zkTLS ensure trust, transparency, and secure on-chain verification.  
+- **🎮 Engagement & Motivation:** Gamified challenges and lifestyle progress tracking increase patient adherence.  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f33953fc-de32-468c-bd75-8d62c5862b28) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🏗 Core Workflow
+CareNova’s unified ecosystem **connects patients, clinicians, AI, and verification technologies** seamlessly:
 
-**Use your preferred IDE**
+1. **Patients log lifestyle & wearable data** 🏃‍♀️🥗🛌  
+2. **AI generates predictive alerts** 🤖  
+3. **Clinician reviews alerts and updates records** 🩺  
+4. **Verified data recorded on blockchain / zkTLS** 🔗  
+5. **Interactive dashboards visualize progress** 📊🌈  
+6. **Community hubs ensure equitable access** 🌍  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+> Each step creates a **cohesive, human-first experience** where technology amplifies care without replacing human judgment.  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f33953fc-de32-468c-bd75-8d62c5862b28) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🛠 Tech Stack
+- **Frontend:** React, TypeScript, Tailwind CSS, Framer Motion (animations)  
+- **Backend:** Node.js, Express.js, PostgreSQL  
+- **APIs & Integrations:**  
+  - OpenAI / GPT API for AI-assisted predictions  
+  - Wearable SDKs: Fitbit, Apple HealthKit  
+  - Payment / Appointment API integrations  
+  - XION Mobile Development Kit (Dave) with zkTLS for verifiable internet data  
+- **Security & Verification:** Blockchain-based on-chain verification, zkTLS  
+- **Tools & DevOps:** GitHub, Docker, Vercel (frontend), Heroku (backend), Figma  
+- **Other Libraries:** Chart.js / D3.js for interactive dashboards, AR.js for AR visualizations  
